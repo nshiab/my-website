@@ -21,7 +21,7 @@
   let testRadioInput = $state("option1");
 </script>
 
-<h2>Climate change</h2>
+<h2>Climate change example</h2>
 
 <Select bind:value={city} options={cities} label="Pick a city:" />
 
@@ -42,8 +42,8 @@
 
 <p>
   This project uses a simple linear regression to estimate the temperature
-  change in each city. The data comes from the Adjusted and Homogenized
-  Canadian Climate Data (AHCCD) dataset.
+  change in each city. The data comes from the Adjusted and Homogenized Canadian
+  Climate Data (AHCCD) dataset.
 </p>
 
 <p>
@@ -88,7 +88,7 @@ export default async function crunchData(sdb: SimpleDB) {
   await temp.writeData("static/temp.json");
 }
 `}
-  />
+/>
 
 <h2>Other components</h2>
 
