@@ -12,6 +12,7 @@
     "npm:svelte-check@^4.1.6": "4.1.6_svelte@5.27.2__acorn@8.14.1_typescript@5.8.3",
     "npm:svelte@^5.27.2": "5.27.2_acorn@8.14.1",
     "npm:typescript@^5.8.3": "5.8.3",
+    "npm:vite@6.3.1": "6.3.1_picomatch@4.0.2",
     "npm:vite@^6.3.1": "6.3.1_picomatch@4.0.2"
   },
   "npm": {
